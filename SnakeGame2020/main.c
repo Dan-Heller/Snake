@@ -60,7 +60,7 @@ void main() {
 				movesnake(&Snake, NewDir, &game, SnakeMatrix);
 			}
 			CurrDir = NewDir;
-			sleep(0.11);
+			sleep(0.12);
 
 			if (!game) {  
 				FreeSnake(&Snake);
